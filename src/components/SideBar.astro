@@ -1,6 +1,5 @@
 ---
 import { Image } from "astro:assets";
-import SideBarFooter from "./SideBarFooter.astro";
 import SideBarMenu from "./SideBarMenu.astro";
 
 const { sideBarActiveItemID } = Astro.props;
@@ -19,6 +18,5 @@ const { sideBarActiveItemID } = Astro.props;
       </a>
     </div>
     <SideBarMenu sideBarActiveItemID={sideBarActiveItemID} />
-    <SideBarFooter />
   </aside>
 </div>
